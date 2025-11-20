@@ -4,7 +4,7 @@ import csv
 from datetime import datetime
 from typing import List, Optional
 
-from .models import Event
+from models import Event
 
 
 def _parse_dt(value: str) -> datetime:
@@ -96,4 +96,5 @@ def load_health_events(csv_path: str) -> List[Event]:
             events.append(event)
 
     return events
+
 
