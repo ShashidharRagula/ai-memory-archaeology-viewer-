@@ -1,6 +1,6 @@
 from datetime import date, timedelta
 from typing import List, Dict, Any
-from .models import Event
+from models import Event
 
 def filter_events_for_day(events: List[Event], target_date: date) -> List[Event]:
     """
@@ -63,3 +63,4 @@ def summarize_session(session: List[Event]) -> Dict[str, Any]:
     }
 
     return summary
+
