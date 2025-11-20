@@ -6,7 +6,7 @@ import csv
 from datetime import datetime, timedelta
 from typing import List
 
-from .models import Event
+from models import Event
 
 # Adjust this if you change the format in the CSV
 DATETIME_FORMAT = "%Y-%m-%d %H:%M"
@@ -66,3 +66,4 @@ def load_whatsapp_events(csv_path: str) -> List[Event]:
             )
 
     return events
+
