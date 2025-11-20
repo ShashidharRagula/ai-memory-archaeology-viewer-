@@ -2,7 +2,7 @@ import csv
 from datetime import datetime
 from typing import List
 
-from .models import Event
+from models import Event
 
 
 def load_gps_events(csv_path: str) -> List[Event]:
@@ -54,3 +54,4 @@ def load_gps_events(csv_path: str) -> List[Event]:
             events.append(ev)
 
     return events
+
