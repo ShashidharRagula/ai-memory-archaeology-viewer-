@@ -1,0 +1,5 @@
+id,timestamp_start,timestamp_end,place_name,lat,lon,source
+1,2025-01-01 08:30,2025-01-01 08:45,Home,40.7128,-74.0060,gps
+2,2025-01-01 09:50,2025-01-01 10:10,City Hospital,40.7135,-74.0055,gps
+3,2025-01-01 12:10,2025-01-01 13:10,Cafe Milano,40.7150,-74.0040,gps
+4,2025-01-01 18:05,2025-01-01 18:40,Central Park Entrance,40.7829,-73.9654,gps

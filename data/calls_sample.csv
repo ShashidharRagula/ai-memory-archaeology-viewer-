@@ -1,0 +1,4 @@
+id,timestamp_start,timestamp_end,person,direction,duration_min
+1,2025-01-01 09:10,2025-01-01 09:25,Daughter,incoming,15
+2,2025-01-01 15:30,2025-01-01 15:40,Friend,outgoing,10
+3,2025-01-01 20:05,2025-01-01 20:15,Daughter,outgoing,10

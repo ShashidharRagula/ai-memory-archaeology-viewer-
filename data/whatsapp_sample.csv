@@ -1,0 +1,5 @@
+timestamp,direction,contact,message_preview
+2025-01-01 09:30,incoming,Daughter,"Good morning! How are you feeling today?"
+2025-01-01 11:45,outgoing,Daughter,"Doctor said everything looks stable."
+2025-01-01 15:30,incoming,Friend,"Sending you a photo from our last trip!"
+2025-01-01 20:00,outgoing,Daughter,"Good night, talk to you tomorrow."
