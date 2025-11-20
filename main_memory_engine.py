@@ -3,21 +3,22 @@ from __future__ import annotations
 import argparse
 from datetime import date
 
-from src.ingest_calendar import load_calendar_events
-from src.ingest_locations import load_location_events
-from src.ingest_messages import load_message_events
-from src.ingest_photos import load_photo_events
-from src.ingest_health import load_health_events
-from src.ingest_calls import load_call_events
-from src.ingest_gps import load_gps_events
-from src.ingest_whatsapp import load_whatsapp_events
+from ingest_calendar import load_calendar_events
+from ingest_locations import load_location_events
+from ingest_messages import load_message_events
+from ingest_photos import load_photo_events
+from ingest_health import load_health_events
+from ingest_calls import load_call_events
+from ingest_gps import load_gps_events
+from ingest_whatsapp import load_whatsapp_events
 
-from src.timeline import (
+from timeline import (
     group_into_sessions,
     summarize_session,
     filter_events_for_day,
 )
-from src.story_generator import generate_ai_story_with_ollama
+from story_generator import generate_ai_story_with_ollama
+
 
 
 # ---------------------------------------------------------------------
@@ -195,3 +196,4 @@ def main(argv: list[str] | None = None) -> None:
 
 if __name__ == "__main__":
     main()
+
