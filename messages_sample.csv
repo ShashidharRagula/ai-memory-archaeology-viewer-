@@ -1,0 +1,5 @@
+msg_id,timestamp,person,message_type,message_preview
+1,2025-01-01 08:45,Daughter,text,Good morning Dad!
+2,2025-01-01 12:15,Daughter,text,Where should we meet for lunch?
+3,2025-01-01 12:50,Daughter,text,On my way, see you soon!
+4,2025-01-01 17:30,Friend,call_missed,Missed call from Friend

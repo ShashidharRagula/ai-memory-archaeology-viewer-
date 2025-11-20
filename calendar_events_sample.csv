@@ -1,0 +1,4 @@
+event_id,title,start_time,end_time,location,people
+1,Doctor Appointment,2025-01-01 09:00,2025-01-01 10:00,City Hospital,"Dr. Smith"
+2,Lunch with Daughter,2025-01-01 13:00,2025-01-01 14:00,Cafe Milano,"Daughter"
+3,Evening Walk,2025-01-01 18:00,2025-01-01 18:30,Central Park,""
