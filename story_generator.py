@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import re
-from .ollama_client import generate_text_with_ollama  # kept for compatibility, not used
+from ollama_client import generate_text_with_ollama  # kept for compatibility, not used
 
 
 # --------------------------------------------------------------------
@@ -314,4 +314,5 @@ def split_story_sections(ai_text: str):
     Not used by the new pipeline.
     """
     return ai_text.strip(), ""
+
 
